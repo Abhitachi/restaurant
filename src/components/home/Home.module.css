@@ -1,0 +1,55 @@
+.hero{
+    background-image: url('../../utils/bgimage.avif');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 2.5rem;
+    overflow: hidden;
+}
+.content{
+    text-align: center;
+    width: 45%;
+}
+.content p{
+    font-size:1.25rem;
+    margin: 1.5rem 0;
+    line-height: 32.5px;
+    font-weight: bold;
+    z-index: 1;
+    color: aliceblue;
+}
+.content h1{
+    font-size:48px;
+    font-weight: 800;  
+    /* line-height: 48px; */
+    padding: 5px;
+}
+#lastChild{
+    color: rgb(190,18,60);
+}
+.content button{
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color:  rgb(225,29,72);
+    margin-right: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    border-radius: 4px ;
+    cursor:pointer;
+    float: left;
+    font-size: 1.25rem;
+}
+#searchNow:hover{
+    background-color: rgb(180, 25, 64);
+}
+#knowMore{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(225,29,72);
+}
+#knowMore:hover{
+    color: rgb(180, 25, 64);
+}
+
